@@ -1,0 +1,19 @@
+{
+  "name": "pkg-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/pkg-react.cjs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafał Filipek",
+  "license": "ISC",
+  "dependencies": {
+    "pkg-ts": "workspace:1.0.0",
+    "react": "17.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "7.13.8",
+    "@babel/preset-react": "7.12.13"
+  }
+}
