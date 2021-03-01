@@ -2,4 +2,4 @@ const foo: string = "ts-2";
 
 export default foo;
 
-export const bar = 3;
+export const bar = 4;
