@@ -11,8 +11,8 @@
     "next": "10.0.7",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "pkg-ts": "1.0.0",
-    "pkg-react": "1.0.0"
+    "pkg-ts": "workspace:*",
+    "pkg-react": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "14.14.31",

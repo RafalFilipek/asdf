@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "react": "17.0.1",
-    "pkg-ts": "1.0.0"
+    "pkg-ts": "workspace:*"
   },
   "devDependencies": {
     "@babel/core": "7.13.8",
