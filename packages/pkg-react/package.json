@@ -10,8 +10,9 @@
   "author": "Rafał Filipek",
   "license": "MIT",
   "dependencies": {
-    "react": "17.0.1",
-    "pkg-ts": "workspace:*"
+    "@hq/configs": "1.0.0",
+    "pkg-ts": "1.0.0",
+    "react": "17.0.1"
   },
   "devDependencies": {
     "@babel/core": "7.13.8",

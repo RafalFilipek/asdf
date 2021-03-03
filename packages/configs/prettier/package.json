@@ -1,3 +1,4 @@
 {
+  "name": "@hq/configs-prettier",
   "main": "dist/hq-configs-prettier.cjs.js"
 }

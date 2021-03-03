@@ -4,7 +4,7 @@ import { bar } from "pkg-ts";
 export const Button = ({ children }) => {
   return (
     <button>
-      {children} and {bar}!
+      {children} and {bar} LOMFG
     </button>
   );
 };

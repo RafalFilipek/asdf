@@ -1,4 +1,4 @@
 {
-  "name": "@hq/configs/babel",
+  "name": "@hq/configs-babel",
   "main": "dist/hq-configs-babel.cjs.js"
 }
