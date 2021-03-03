@@ -4,13 +4,12 @@ Wystarczy zainstalować w systemie **[volta.sh](https://volta.sh)** i zapomnie�
 
 # Uruchomienie
 
-Po sklonowaniu repozytorium oraz opcjonalnym, ręcznym zainstalowaniu zależności globalnych należy zainstalować wszystkie zależności pakietów. W tym celu wystarczy wykonać komendę `rush update`.
+Po sklonowaniu repozytorium oraz opcjonalnym, ręcznym zainstalowaniu zależności globalnych należy zainstalować wszystkie zależności pakietów. W tym celu wystarczy wykonać komendę `pnpm install`.
 
 Koniec.
 
 # Katalogi
 
-- `common` - elementy konfiguracyjne **[rushjs](http://rushjs.io)**
 - `app` - aplikacje
 - `libs` - biblioteki
 
@@ -31,23 +30,3 @@ Katalog `libs` przechowuje wszystkie biblioteki pogrupowane w katalogi których 
 5. Każda aplikacj oraz biblioteka musi jawnie określać 100% swoich zależności
 6. Każda aplikacja i biblioteka musi _działać_ w każdym momencie życia repozytorium
 7. **〝Everything is WIP〞** — _Rafał_
-
-# Przydatne komendy
-
-Istalacja wszystkich zależności
-
-```
-rush update
-```
-
-Włącz tryb dev dla wszystkich zależności aplikacji o nazwie `app-name`
-
-```
-rush -T app-name dev
-```
-
-Zbuduj aplikację `app-name` (uprzednio budując wszystkie jej zależności)
-
-```
-rush build -t app-name
-```
