@@ -385,6 +385,10 @@
       "projectFolder": "packages/app"
     },
     {
+      "packageName": "app-ts",
+      "projectFolder": "packages/app-ts"
+    },
+    {
       "packageName": "pkg-ts",
       "projectFolder": "packages/pkg-ts"
     },
