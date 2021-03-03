@@ -22,9 +22,7 @@ Katalog `apps` przechowuje wszystkie aplikacje. Struktura tego katalug jest zaws
 
 Katalog `libs` przechowuje wszystkie biblioteki pogrupowane w katalogi których nazwy to _identyfikatora przestrzeni aplikacji_ (scope), np. `nju/api-auth`. Wewnątrz katalogu biblioteki powinny być pefixowane typem biblioteki np. `api`, `utils`, `data`.
 
----
-
-# Rules of OMNI 🤴🏻
+# Rules of OMNI
 
 1. Biblioteki nigdy nie mogą importować aplikacji
 2. Aplikacje nigdy nie mogą importować bibliotek
@@ -53,29 +51,3 @@ Zbuduj aplikację `app-name` (uprzednio budując wszystkie jej zależności)
 ```
 rush build -t app-name
 ```
-
-rus
-
-# Init
-
-```
-yarn global add pnpm @microsoft/rush
-
-git clone git@github.com:RafalFilipek/asdf.git
-
-cd asdf
-
-rush update
-
-pnpm -r dev --filter pkg-* --filter @hq/*
-
-cd packages/app
-
-pnpm run dev
-```
-
-1. ✅ build app
-2. ✅ build lib
-3. ✅ HMR lib -> app
-4. ✅ multiple entrypoints in lib
-5. ✅ HMR in lib -> lib -> app

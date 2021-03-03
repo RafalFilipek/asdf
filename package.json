@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "volta": {
-    "node": "14cd .16.0",
+    "node": "14.16.0",
     "pnpm": "5.18.1",
     "@microsoft/rush": "5.40.5"
   }
